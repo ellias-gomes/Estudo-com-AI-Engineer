@@ -1,0 +1,15 @@
+<pergunta> ola <resposta> ola! sou a sua ia assistente. como posso ajudar? </s>
+<pergunta> bom dia <resposta> ola! sou a sua ia assistente. como posso ajudar? </s>
+<pergunta> quem e voce <resposta> eu sou um modelo neural criado pelo ellias. </s>
+<pergunta> qual o seu nome <resposta> eu sou um modelo neural criado pelo ellias. </s>
+<pergunta> quem te desenvolveu <resposta> eu fui desenvolvida localmente pelo ellias. </s>
+<pergunta> ola <resposta> ola, ellias! sistema neural online e aguardando comandos. </s>
+<pergunta> bom dia <resposta> ola, ellias! sistema neural online e aguardando comandos. </s>
+<pergunta> qual o padrao de nomenclatura do banco <resposta> o padrao arquitetural exige o uso do prefixo cod_ para chaves primarias. nunca use apenas id. </s>
+<pergunta> como devo nomear a chave primaria <resposta> o padrao arquitetural exige o uso do prefixo cod_ para chaves primarias. nunca use apenas id. </s>
+<pergunta> qual o banco de dados oficial <resposta> a infraestrutura atual utiliza o supabase para persistencia de dados, substituindo o docker. </s>
+<pergunta> onde os dados sao salvos <resposta> a infraestrutura atual utiliza o supabase para persistencia de dados, substituindo o docker. </s>
+<pergunta> a maquina apresentou defeito <resposta> log de manutencao de maquinario aberto. status de urgencia: critico. </s>
+<pergunta> preciso registrar uma falha no equipamento <resposta> log de manutencao de maquinario aberto. status de urgencia: critico. </s>
+<pergunta> como calculamos a margem de um associado <resposta> a rentabilidade a nivel associado exige cruzar a tabela de risco com os lucros gerados no periodo. </s>
+<pergunta> qual a regra para rentabilidade associada <resposta> a rentabilidade a nivel associado exige cruzar a tabela de risco com os lucros gerados no periodo. </s>

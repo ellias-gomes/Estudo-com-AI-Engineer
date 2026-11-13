@@ -1,0 +1,63 @@
+# ==============================================================================
+# ARQUIVOS SENSÍVEIS E VARIÁVEIS DE AMBIENTE
+# ==============================================================================
+.env
+.env.*
+!.env.example
+
+# Pasta de dúvidas e alinhamento do projeto (não deve entrar em commit)
+duvidas/
+
+# ==============================================================================
+# AMBIENTES VIRTUAIS & DEPENDÊNCIAS
+# ==============================================================================
+.venv/
+venv/
+ENV/
+env/
+Include/
+Lib/
+Scripts/
+pyvenv.cfg
+
+# ==============================================================================
+# PESOS DE MODELOS, CHECKPOINTS E ARQUIVOS GRANDES (> 50MB)
+# ==============================================================================
+# Modelos fundidos locais e checkpoints intermediários
+meu_modelo_fundido/
+resultados_lora/
+
+# Binários pesados de pesos neurais
+*.safetensors
+*.pth
+*.pt
+*.bin
+*.ckpt
+*.onnx
+
+# Exceção: adaptadores LoRA finais (leves, ~1-4 MB) DEVEM ser versionados
+!meu_chatbot_gpt/adapter_model.safetensors
+!meu_chatbot_tinyllama/adapter_model.safetensors
+
+# Pesos gerados localmente nos testes
+chatbot_pesos.pth
+
+# ==============================================================================
+# PYTHON CACHE & ARTEFATOS DE COMPILAÇÃO
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ==============================================================================
+# LOGS, TEMPORÁRIOS E SISTEMA OPERACIONAL
+# ==============================================================================
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini

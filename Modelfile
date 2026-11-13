@@ -1,0 +1,12 @@
+# Dizemos ao Ollama para olhar para a pasta que acabamos de criar no Python
+FROM ./meu_modelo_fundido
+
+# Parâmetros para ela ser exata com as suas regras
+PARAMETER temperature 0.1
+PARAMETER num_ctx 4096
+
+# Como nós treinamos ela com o formato <pergunta> e <resposta>,
+# nós podemos forçar o Ollama a envelopar a sua mensagem automaticamente!
+TEMPLATE """<pergunta> {{ .Prompt }} <resposta>"""
+
+SYSTEM """Você é um assistente de engenharia. Seja direto e aplique os padrões do projeto."""
